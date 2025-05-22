@@ -91,3 +91,14 @@ Log File: ``` /var/log/odoo/odoo-server.log ```
 
 Configuration: ``` /etc/odoo-server.conf ```
 
+## PS
+
+if the current odoo installation does not work you may change this line :
+```
+sudo -H pip3 install -r https://github.com/odoo/odoo/raw/${OE_VERSION}/requirements.txt
+
+```
+with this line:
+```
+sudo -H pip3 install -r https://raw.githubusercontent.com/MedMokhtarAmmar/odoo_install/main/requirements.txt
+```
